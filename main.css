@@ -9,4 +9,33 @@
   */
   margin: 0 auto;  
   width: 720px;
+
 }
+
+.content {
+	float: right;
+	width: 589px;
+	border-left: 1px solid gray;
+	padding-left: 10px;
+/* should be 600px wide incl borders*/
+}
+
+nav {
+	float: left;
+	width: 120px;
+}
+/* should be 120px wide incl borders*/
+
+ul {
+	list-style-type:none;
+	-webkit-padding-start: 0px;
+}
+
+.footer {
+	clear: both;
+	border-top: 1px solid gray;
+    padding-left: 180px;
+    padding-top: 10px;
+    margin-bottom: 20px; 
+}
+
